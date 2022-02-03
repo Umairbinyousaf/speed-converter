@@ -11,7 +11,7 @@ public class SpeedConverter {
 
     public static void printConversion(double kilometerPerHour){
         if (kilometerPerHour < 0){
-            System.out.println("Invalid Value occurs by umair");
+            System.out.println("Invalid Value occurs by shamim");
         }else {
             long milesPerHour = toMilesPerHour(kilometerPerHour);
             System.out.println(kilometerPerHour + " km/h = " + milesPerHour + " mi/h");
